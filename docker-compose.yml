@@ -4,7 +4,7 @@ services:
     build: ./..www
     ports:
       - '80:80'
-  code:
+  dev:
     build: ./..dev
     ports:
       - '8000:8000'
