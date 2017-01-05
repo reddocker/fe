@@ -1,0 +1,8 @@
+version: '2'
+services:
+  www:
+    build: ./..www
+    ports:
+      - '80:80'
+  fe:
+    build: ./..fe
