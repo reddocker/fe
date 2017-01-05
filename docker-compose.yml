@@ -4,5 +4,8 @@ services:
     build: ./..www
     ports:
       - '80:80'
-  fe:
-    build: ./..fe
+  code:
+    build: ./..dev
+    ports:
+      - '8000:8000'
+    tty: true
